@@ -90,7 +90,7 @@ p.header-text {
 .btn {
   text-decoration: none;
   border-radius: 20px;
-  background-color: rgb(29, 142, 241);
+  background-color: #2f4858;
   padding: 10px;
   font-size: 20px;
 }
@@ -120,8 +120,9 @@ header img {
   display: flex;
   flex-direction: row;
   padding: 10px;
-  width: 1000px;
+  width: 980px;
   font-size: large;
+  height: 310px;
 }
 .text img {
   padding: 20px;
