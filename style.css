@@ -19,13 +19,14 @@ body {
   font-family: sans-serif;
 }
 .header {
-  background-color: rgb(234, 245, 255);
+  background-color: #e5e5e4;
   padding: 10px;
+  box-shadow: 0 0 5px #000000;
 }
 h1 {
   font-size: 44px;
-  letter-spacing: 2px;
-  line-height: 1.4;
+  letter-spacing: 1.2px;
+  line-height: 1;
 }
 
 .container {
@@ -72,7 +73,7 @@ header {
 h1 {
   /* margin-bottom: 24px; */
   padding-bottom: 40px;
-  color: rgb(8, 59, 104);
+  color: #262626;
 }
 
 .header-text {
@@ -89,7 +90,7 @@ p.header-text {
 .btn {
   text-decoration: none;
   border-radius: 20px;
-  background-color: rgb(8, 132, 240);
+  background-color: rgb(29, 142, 241);
   padding: 10px;
   font-size: 20px;
 }
@@ -107,12 +108,15 @@ img {
 }
 header img {
   border-radius: 5px;
+  /* border: 20px solid rgb(122, 182, 223); */
+  box-shadow: 0 0 5px #000000;
 }
 
 /* FEATURES */
 .test {
   border-radius: 20px;
-  background-color: rgba(0, 247, 164, 0.623);
+  background-color: #ececeb;
+  box-shadow: 0 0 5px #000000;
   display: flex;
   flex-direction: row;
   padding: 10px;
@@ -149,6 +153,7 @@ h2 {
   grid-column: 2 / -1;
   align-self: center;
   padding: 40px;
+  color: #000000;
 }
 blockquote {
   font-size: "Inter";
@@ -169,7 +174,7 @@ blockquote {
 }
 .chair {
   border-radius: 20px;
-  box-shadow: 0 0 5px rgb(10, 136, 247, 0.5);
+  box-shadow: 0 0 5px #000000;
 }
 .chair img {
   border-radius: 20px 20px 0px 0px;
