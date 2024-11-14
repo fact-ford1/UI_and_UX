@@ -5,11 +5,12 @@ SPACING SYSTEM (px)
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 /* ------------------------ */
@@ -21,7 +22,7 @@ body {
 .header {
   background-color: #e5e5e4;
   padding: 10px;
-  box-shadow: 0 0 5px #000000;
+  box-shadow: 0 0 5px hsl(0, 0%, 0%);
 }
 h1 {
   font-size: 44px;
@@ -37,6 +38,7 @@ h1 {
 header,
 section {
   margin-bottom: 48px;
+  /* font-size: 20px; */
 }
 
 h2 {
@@ -72,13 +74,14 @@ header {
 
 h1 {
   /* margin-bottom: 24px; */
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   color: #262626;
 }
 
 .header-text {
   margin-bottom: 24px;
   letter-spacing: 2.4px;
+  padding-bottom: 30px;
 }
 p.header-text {
   list-style: 1.7;
@@ -90,9 +93,13 @@ p.header-text {
 .btn {
   text-decoration: none;
   border-radius: 20px;
-  background-color: #2f4858;
+  background-color: #2e4959;
   padding: 10px;
   font-size: 20px;
+  
+}
+.btn .btn--small{
+  
 }
 .btn:active,
 .btn:hover {
@@ -101,6 +108,7 @@ p.header-text {
 .btn:visited,
 .btn:link {
   color: rgb(253, 253, 253);
+  text-transform: uppercase;
 }
 img {
   width: 100%;
@@ -113,15 +121,17 @@ header img {
 
 /* FEATURES */
 .test {
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: #ececeb;
-  box-shadow: 0 0 5px #000000;
+  /* box-shadow: 0 0 5px #000000; */
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.09);
   display: flex;
   flex-direction: row;
   padding: 10px;
   width: 980px;
   font-size: large;
   height: 310px;
+  margin-top: 50px;
 }
 .text img {
   padding: 20px;
@@ -135,14 +145,19 @@ h2 {
   letter-spacing: -0.5px;
 }
 .features-icon {
+
 }
 
 .features-title {
   margin-bottom: 16px;
   font-size: 20px;
+  margin-top: 16px;
+
 }
 
 .features-text {
+ font-size: 18px;
+ line-height: 1.7;
 }
 
 /* TESTIMONIAL */
@@ -174,7 +189,8 @@ blockquote {
 }
 .chair {
   border-radius: 20px;
-  box-shadow: 0 0 5px #000000;
+  /* box-shadow: 0 0 5px #000000; */
+  box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.1);
 }
 .chair img {
   border-radius: 20px 20px 0px 0px;
@@ -206,6 +222,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 20px;
 }
 
 footer {
