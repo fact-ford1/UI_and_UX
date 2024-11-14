@@ -98,8 +98,8 @@ p.header-text {
   font-size: 20px;
   
 }
-.btn .btn--small{
-  
+.btn--small{
+  font-size: 14px;
 }
 .btn:active,
 .btn:hover {
